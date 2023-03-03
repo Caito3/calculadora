@@ -24,7 +24,7 @@ function botones(x){
 }
 //Pasamos los datos del array a tipo numericos y agregamos los operadores seleccionados en otro array
 function operadores(x){
-    aa = 0 
+    texto = ""
     var totalPrimero = arrayUnion.join('')
     array.push(totalPrimero)
     var total = array.join('')
