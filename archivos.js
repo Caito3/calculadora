@@ -7,8 +7,8 @@ var arrayUnion = []
 
 
 var res = 0 
-var aaa = 0 
-var aa = 0  
+var llevar = 0 
+var texto = ""
 var a = 0 
 var mantenerRes = 1
 var op = 0 
@@ -16,9 +16,9 @@ var op = 0
 function botones(x){
     arrayUnion.push(x)
     
-    aa += x 
+    texto += x 
     var totalTexto = document.getElementById("totalTexto")
-    totalTexto.innerHTML=aa
+    totalTexto.innerHTML=texto
     
 
 }
@@ -95,12 +95,20 @@ function hacerCuenta(){
         contador = 0 
         mantener = arrayCuenta.filter(number => number > 0)
         while(a < mantener.length ){
-            
+            if(a < 1){
+                res = mantenerRes
+                mantenerRes *= mantener[a]
+                res = mantenerRes
+            }
+            else{
             res *= mantener[a]
             
+
+            }
             i++
             a++
             contador++
+            
             if (contador >= 2){
                 break
             }
