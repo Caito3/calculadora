@@ -93,3 +93,34 @@ html{
     color:gray;
     margin-top:4vh
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px ){
+
+
+
+    .total{
+        height: 20vh;
+        width: 70%;
+        margin-left: 17%
+    }
+    .calculadora{
+        width: 83%;
+        margin-left: 13%
+    }
+    .boton{
+        font-size: 20px
+    }
+    .reset{
+        font-size: 17px;
+
+    }
+    #del {
+        font-size: 13px;
+    }
+}
