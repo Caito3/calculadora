@@ -76,7 +76,8 @@ html{
 #del{
     background-color: #4AC0A3; 
     border: none;
-    border-bottom: 3px solid #2e7965
+    border-bottom: 3px solid #2e7965;
+    font-size: 17px;
 }
 
 

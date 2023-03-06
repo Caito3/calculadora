@@ -164,11 +164,11 @@ function borrar(){
         arrayCuenta.pop()
     }
     var res = document.getElementById("totalTexto")
-    aa = aa.slice(0 , aa.length - 1)
+    texto = texto.slice(0 , texto.length - 1)
 
 
 
 
 
-    res.innerHTML=aa
+    res.innerHTML=texto
 }
