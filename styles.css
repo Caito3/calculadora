@@ -112,10 +112,12 @@ html{
     }
     .calculadora{
         width: 83%;
-        margin-left: 10%
+        margin-left: 10%;
+        
     }
     .boton{
-        font-size: 20px
+        font-size: 20px;
+        margin-left: 3px
     }
     .reset{
         font-size: 17px;
